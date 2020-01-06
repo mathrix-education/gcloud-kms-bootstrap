@@ -1,0 +1,23 @@
+{
+    "name": "mathrix-education/gcloud-kms-bootstrap",
+    "version": "0.1.0",
+    "description": "Decrypt ciphered files before booting a PHP app.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "google/cloud-kms": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathieu Bour",
+            "email": "mathieu.tin.bour@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Mathrix\\GoogleCloud\\KMS\\Bootstrap": "src/"
+        }
+    }
+}
